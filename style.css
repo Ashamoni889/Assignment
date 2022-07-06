@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: wheat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.banner-area {
+    background-image: url(img/donation4.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+    width: 100%;
+}
+
+.banner-content {
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.link-bttn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+.wrapper {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    padding: 20px;
+    width: 80%;
+    margin: 5%;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.child2 {
+    color: red;
+    border: 2px solid red;
+}
+
+.container-item1 {
+    background-color: peachpuff;
+}
+
+.container-item2 {
+    background-color: palegoldenrod;
+}
+
+.container-item3 {
+    background-color: burlywood;
+}
+
+.row {
+    display: flex;
+    align-item: center;
+}
+
+.row div {
+    width: 50%;
+    margin: 5%;
+}
+
+.heading {
+    color: white;
+
+}
+
+.input-area {
+    height: 50px;
+    width: 70%;
+    background-color: burlywood;
+    margin-left: 15%;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+#bttn1 {
+    background-color: wheat;
+    color: white;
+    padding: 4px;
+}
+
+#bttn2 {
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
+
+.credit {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    margin-top: 60px;
+    width: 80%%;
+    height: 100px;
+
+}
+
+#red-color {
+    color: red;
+}
